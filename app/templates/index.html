@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+{% block body %}
+<div class="index-search-one">
+  <input type="text" placeholder="Codeforces Problem Code or title." id="i-se-pr">
+  <button id="i-se-pr-g">Go</button>
+</div>
+<div class="index-problem-opt">
+  <a href="{{ url_for('categories') }}"><span>Categories</span></a>
+  <a href="{{ url_for('levels') }}"><span>Levels</span></a>
+  <a href="{{ url_for('contests') }}"><span>Contests</span></a>
+</div>
+{% endblock %}
