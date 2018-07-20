@@ -1,11 +1,20 @@
 {% extends "layout.html" %}
 {% block body %}
 
-<h1>Title goes here</h1>
-<a href=""><span class="p-tag">Tag</span></a>
-<p>Question goes here.</p>
-<p>Hints go here.</p>
-<p>Editorial goes here.</p>
-<code>Code goes here.</code>
-
+<div class="site">
+  <div class="ed-ques spacing">
+    <h1>Title goes here</h1>
+    <a href=""><span class="p-tag">Tag</span></a>
+    <p>Question goes here.</p>
+  </div>
+  <div class="ed-hint spacing">
+    <p>Hints go here.</p>
+  </div>
+  <div class="ed-soln spacing">
+    <p>Editorial goes here.</p>
+  </div>
+  <div class="ed-code spacing">
+    <code>Code goes here.</code>
+  </div>
+</div>
 {% endblock %}

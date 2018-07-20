@@ -16,6 +16,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 html, body {
@@ -41,7 +42,6 @@ p {
 }
 
 a {
-  color: #00a;
   text-decoration: none;
   border-bottom: 1px;
 }
@@ -53,7 +53,6 @@ a:hover {
 }
 
 a:visited {
-  color: #00a;
   text-decoration: none;
 }
 
@@ -62,13 +61,45 @@ table {
   font: 100%;
 }
 
+.spacing {
+  max-width: 60em;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
 /*****************************************************************************/
 /*
 /* Home
 /*
 /*****************************************************************************/
 
+.jumbotron {
+  padding-top: 280px;
+}
+
+/* Header */
+
+.header {
+  color: #fff;
+  background: black;
+  height: 50px;
+}
+
+.header a {
+  color: #fff;
+}
+
+.title {
+  height: 100%;
+  line-height: 50px;
+}
+
 /* Search */
+
+.index-search-one {
+  display: inline-block;
+  vertical-align: middle;
+}
 
 #i-se-pr,
 #i-se-pr-g {
